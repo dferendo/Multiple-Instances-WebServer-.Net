@@ -3,7 +3,7 @@
 setlocal enabledelayedexpansion
 
 REM Update this port to the current port used by your application
-SET defaultPortNumber=57446
+SET startingPortNumber=57446
 SET defaultNumberOfInstances=5
 
 SET numberOfInstances=0
@@ -16,7 +16,7 @@ if %1.==. (
 
 REM Adjust depending on the file location of the bat script
 cd ../.vs/config/
-SET stringToReplace=*:%defaultPortNumber%:localhost
+SET stringToReplace=*:%startingPortNumber%:localhost
 SET currentPortNumber=57446
 
 FOR /L %%A IN (1,1,%numberOfInstances%) DO (
