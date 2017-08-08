@@ -8,6 +8,8 @@ Depending on the location of the scripts, change the cd accordingly. Also before
 
 ## Example
 
+An example of running the script with default number of instances (5).
+
 ![Example](example.png "Example of working script.")
 
 ## Known Bugs
