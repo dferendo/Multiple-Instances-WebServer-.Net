@@ -16,7 +16,7 @@ An example of running the script with default number of instances (5).
 
 When trying to merge both scripts, the iisexpress gives an error. Feel free to try me why because I have no clue (Could be the same issue as saving with notepad++).
 
-# Running the scripts
+## Running the scripts
 
 Add iis express to the PATH environment variable. In my case the iss location was:
 
